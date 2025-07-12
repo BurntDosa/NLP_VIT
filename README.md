@@ -1,6 +1,5 @@
-# NLP_VIT Project
-
-This repository contains NLP-related tasks and experiments.
+# Natural Language Processing Tasks
+## BCSE409L under Dr. Saravanaguru RA.K
 
 ## Contents
 

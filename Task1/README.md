@@ -33,8 +33,7 @@ This project is a command-line chatbot that uses Google Gemini and Airtable data
 5. **Usage**
 
    - Enter your question when prompted.
-   - Type `q` to exit.
-
+   - Type `q` to exit
 ## Notes
 
 - Make sure your API keys and IDs are correct in the `.env` file.
@@ -49,3 +48,6 @@ This project is a command-line chatbot that uses Google Gemini and Airtable data
 [Watch the demo video here](https://vimeo.com/1100875865?share=copy)
 
 
+## Demo Video Link
+
+[Watch the demo video here](https://vimeo.com/1100875865?share=copy)
