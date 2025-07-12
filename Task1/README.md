@@ -46,8 +46,3 @@ This project is a command-line chatbot that uses Google Gemini and Airtable data
 ## Demo Video Link
 
 [Watch the demo video here](https://vimeo.com/1100875865?share=copy)
-
-
-## Demo Video Link
-
-[Watch the demo video here](https://vimeo.com/1100875865?share=copy)
