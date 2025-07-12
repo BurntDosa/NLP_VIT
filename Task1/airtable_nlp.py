@@ -9,12 +9,12 @@ genai.configure(api_key=os.environ['GEMINI_API_KEY'])
 api = Api(os.environ['AIRTABLE_API'])
 table = api.table(os.environ['AIRTABLE_BASE_ID'], os.environ['AIRTABLE_TABLE_ID'])
 tableInfo = table.all()
-
+print("Your Airtable data has been fetched successfully.")
 table_info_text = json.dumps(tableInfo, indent=2)
 chat_history = []
 
 while True:
-    query = input("Enter your question (type 'q' to exit): ")
+    query = input("Please enter your question (type 'q' to exit): ")
     if query.lower() == 'q':
         print("Exiting...")
         break
