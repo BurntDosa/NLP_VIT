@@ -6,6 +6,9 @@
 - [Task1: Airtable NLP Chatbot](./Task1/README.md)  
   A command-line chatbot that uses Google Gemini and Airtable data to answer user questions.
 
+- [Task2: Kannada and French Corpus](./Task2)
+I have created a corpus of 15 lines with various phrases in French and Kannada for NLP Purposes.
+
 ## Getting Started
 
 1. Navigate to the relevant task folder (e.g., [Task1](./Task1)).
