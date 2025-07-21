@@ -1,0 +1,287 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = french-gsd-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Le chien doré a couru après la balle de tennis dans le pré vert.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=0:2
+2	chien	chien	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=3:8
+3	doré	doré	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	TokenRange=9:13
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	TokenRange=14:15
+5	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=16:21
+6	après	après	ADP	_	_	8	case	_	TokenRange=22:27
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	TokenRange=28:30
+8	balle	balle	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	TokenRange=31:36
+9	de	de	ADP	_	_	10	case	_	TokenRange=37:39
+10	tennis	tennis	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	TokenRange=40:46
+11	dans	dans	ADP	_	_	13	case	_	TokenRange=47:51
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	TokenRange=52:54
+13	pré	pré	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	TokenRange=55:58
+14	vert	vert	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No|TokenRange=59:63
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=63:64
+
+# sent_id = 2
+# text = Les scientifiques ont découvert une nouvelle espèce de papillon dans la forêt amazonienne.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=65:68
+2	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=69:82
+3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	TokenRange=83:86
+4	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=87:96
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	TokenRange=97:100
+6	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	TokenRange=101:109
+7	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	TokenRange=110:116
+8	de	de	ADP	_	_	9	case	_	TokenRange=117:119
+9	papillon	papillon	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	TokenRange=120:128
+10	dans	dans	ADP	_	_	12	case	_	TokenRange=129:133
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	TokenRange=134:136
+12	forêt	forêt	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	TokenRange=137:142
+13	amazonienne	amazonien	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|TokenRange=143:154
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=154:155
+
+# sent_id = 3
+# text = Les biscuits aux pépites de chocolat de ma grand-mère sont toujours meilleurs que ceux du magasin.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=156:159
+2	biscuits	biscuit	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	TokenRange=160:168
+3-4	aux	_	_	_	_	_	_	_	TokenRange=169:172
+3	à	à	ADP	_	_	5	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	pépites	pépite	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	TokenRange=173:180
+6	de	de	ADP	_	_	7	case	_	TokenRange=181:183
+7	chocolat	chocolat	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	TokenRange=184:192
+8	de	de	ADP	_	_	10	case	_	TokenRange=193:195
+9	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	TokenRange=196:198
+10	grand-mère	grand-mère	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	TokenRange=199:209
+11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	TokenRange=210:214
+12	toujours	toujours	ADV	_	_	13	advmod	_	TokenRange=215:223
+13	meilleurs	meilleur	ADJ	_	Gender=Masc|Number=Plur	0	root	_	TokenRange=224:233
+14	que	que	SCONJ	_	_	15	case	_	TokenRange=234:237
+15	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	12	obj	_	TokenRange=238:242
+16-17	du	_	_	_	_	_	_	_	TokenRange=243:245
+16	de	de	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	magasin	magasin	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=246:253
+19	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n|TokenRange=253:254
+
+# sent_id = 4
+# text = L'ancienne bibliothèque contenait des milliers de livres écrits dans des langues oubliées.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No|TokenRange=255:257
+2	ancienne	ancien	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	TokenRange=257:265
+3	bibliothèque	bibliothèque	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=266:278
+4	contenait	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	TokenRange=279:288
+5-6	des	_	_	_	_	_	_	_	TokenRange=289:292
+5	de	de	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	TokenRange=293:301
+8	de	de	ADP	_	_	9	case	_	TokenRange=302:304
+9	livres	livre	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	TokenRange=305:311
+10	écrits	écrire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	TokenRange=312:318
+11	dans	dans	ADP	_	_	14	case	_	TokenRange=319:323
+12-13	des	_	_	_	_	_	_	_	TokenRange=324:327
+12	de	de	ADP	_	_	14	det	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	langues	langue	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	TokenRange=328:335
+15	oubliées	oublier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	SpaceAfter=No|TokenRange=336:344
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=344:345
+
+# sent_id = 5
+# text = La pluie battante a causé des inondations dans le centre-ville hier soir.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=346:348
+2	pluie	pluie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	TokenRange=349:354
+3	battante	battant	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	TokenRange=355:363
+4	a	avoir	ADP	_	ExtPos=ADV	2	advmod	_	TokenRange=364:365
+5	causé	causer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	fixed	_	TokenRange=366:371
+6-7	des	_	_	_	_	_	_	_	TokenRange=372:375
+6	de	de	ADP	_	_	8	case	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	inondations	inondation	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	TokenRange=376:387
+9	dans	dans	ADP	_	_	11	case	_	TokenRange=388:392
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	TokenRange=393:395
+11	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	TokenRange=396:408
+12	hier	hier	ADV	_	_	2	advmod	_	TokenRange=409:413
+13	soir	soir	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No|TokenRange=414:418
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n|TokenRange=418:419
+
+# sent_id = 6
+# text = Les enfants ont ri et joué sur les équipements colorés de la cour de récréation.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=420:423
+2	enfants	enfant	NOUN	_	Number=Plur	4	nsubj	_	TokenRange=424:431
+3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	TokenRange=432:435
+4	ri	rir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=436:438
+5	et	et	CCONJ	_	_	6	cc	_	TokenRange=439:441
+6	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	TokenRange=442:446
+7	sur	sur	ADP	_	_	9	case	_	TokenRange=447:450
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	TokenRange=451:454
+9	équipements	équipement	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	TokenRange=455:466
+10	colorés	colorer	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	TokenRange=467:474
+11	de	de	ADP	_	_	13	case	_	TokenRange=475:477
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	TokenRange=478:480
+13	cour	cour	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	TokenRange=481:485
+14	de	de	ADP	_	_	15	case	_	TokenRange=486:488
+15	récréation	récréation	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|TokenRange=489:499
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=499:500
+
+# sent_id = 7
+# text = L'alpiniste a atteint le sommet après trois jours d'ascension difficile.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|TokenRange=501:503
+2	alpiniste	alpiniste	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=503:512
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	TokenRange=513:514
+4	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=515:522
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	TokenRange=523:525
+6	sommet	sommet	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	TokenRange=526:532
+7	après	après	ADP	_	_	9	case	_	TokenRange=533:538
+8	trois	trois	NUM	_	Number=Plur	9	nummod	_	TokenRange=539:544
+9	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	TokenRange=545:550
+10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No|TokenRange=551:553
+11	ascension	ascension	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	TokenRange=553:562
+12	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|TokenRange=563:572
+13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=572:573
+
+# sent_id = 8
+# text = La technologie moderne a révolutionné notre façon de communiquer les uns avec les autres.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=574:576
+2	technologie	technologie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	TokenRange=577:588
+3	moderne	moderne	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	TokenRange=589:596
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	TokenRange=597:598
+5	révolutionné	révolutionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=599:611
+6	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	TokenRange=612:617
+7	façon	façon	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	TokenRange=618:623
+8	de	de	ADP	_	_	9	mark	_	TokenRange=624:626
+9	communiquer	communiquer	VERB	_	VerbForm=Inf	7	acl	_	TokenRange=627:638
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	TokenRange=639:642
+11	uns	un	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	9	obl:mod	_	TokenRange=643:646
+12	avec	avec	ADP	_	_	14	case	_	TokenRange=647:651
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	TokenRange=652:655
+14	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	11	nmod	_	SpaceAfter=No|TokenRange=656:662
+15	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=662:663
+
+# sent_id = 9
+# text = L'orchestre a interprété une belle symphonie qui a ému le public aux larmes.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No|TokenRange=664:666
+2	orchestre	orchestre	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=666:675
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	TokenRange=676:677
+4	interprété	interpréter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=678:688
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	TokenRange=689:692
+6	belle	beau	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	TokenRange=693:698
+7	symphonie	symphonie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	TokenRange=699:708
+8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	TokenRange=709:712
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	TokenRange=713:714
+10	ému	émouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl:relcl	_	TokenRange=715:718
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	TokenRange=719:721
+12	public	public	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	TokenRange=722:728
+13-14	aux	_	_	_	_	_	_	_	TokenRange=729:732
+13	à	à	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	larmes	larme	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	SpaceAfter=No|TokenRange=733:739
+16	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=739:740
+
+# sent_id = 10
+# text = Les légumes frais du marché fermier font les meilleures salades.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=741:744
+2	légumes	légume	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	TokenRange=745:752
+3	frais	frais	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	TokenRange=753:758
+4-5	du	_	_	_	_	_	_	_	TokenRange=759:761
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	marché	marché	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	TokenRange=762:768
+7	fermier	fermier	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	TokenRange=769:776
+8	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=777:781
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	TokenRange=782:785
+10	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	TokenRange=786:796
+11	salades	salade	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=797:804
+12	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n|TokenRange=804:805
+
+# sent_id = 11
+# text = Le détective a soigneusement examiné les preuves laissées sur la scène de crime.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=806:808
+2	détective	détective	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=809:818
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	TokenRange=819:820
+4	soigneusement	soigneusement	ADV	_	_	5	advmod	_	TokenRange=821:834
+5	examiné	examiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=835:842
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	TokenRange=843:846
+7	preuves	preuve	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	TokenRange=847:854
+8	laissées	laisser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	TokenRange=855:863
+9	sur	sur	ADP	_	_	11	case	_	TokenRange=864:867
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	TokenRange=868:870
+11	scène	scène	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	TokenRange=871:876
+12	de	de	ADP	_	_	13	case	_	TokenRange=877:879
+13	crime	crime	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|TokenRange=880:885
+14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=885:886
+
+# sent_id = 12
+# text = Les dauphins sont connus pour leur intelligence et leur comportement joueur dans l'océan.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=887:890
+2	dauphins	dauphin	NOUN	_	Gender=Masc|Number=Plur	4	nsubj:pass	_	TokenRange=891:899
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	TokenRange=900:904
+4	connus	connaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=905:911
+5	pour	pour	ADP	_	_	7	case	_	TokenRange=912:916
+6	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	TokenRange=917:921
+7	intelligence	intelligence	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	TokenRange=922:934
+8	et	et	CCONJ	_	_	10	cc	_	TokenRange=935:937
+9	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	TokenRange=938:942
+10	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	TokenRange=943:955
+11	joueur	joueur	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	TokenRange=956:962
+12	dans	dans	ADP	_	_	14	case	_	TokenRange=963:967
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No|TokenRange=968:970
+14	océan	océan	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=970:975
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n|TokenRange=975:976
+
+# sent_id = 13
+# text = Le vieux pont en bois a grincé sous le poids du camion qui passait.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	TokenRange=977:979
+2	vieux	vieux	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	TokenRange=980:985
+3	pont	pont	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=986:990
+4	en	en	ADP	_	_	5	case	_	TokenRange=991:993
+5	bois	bois	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	TokenRange=994:998
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	TokenRange=999:1000
+7	grincé	grincer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=1001:1007
+8	sous	sous	ADP	_	_	10	case	_	TokenRange=1008:1012
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	TokenRange=1013:1015
+10	poids	poids	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	TokenRange=1016:1021
+11-12	du	_	_	_	_	_	_	_	TokenRange=1022:1024
+11	de	de	ADP	_	_	13	case	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	camion	camion	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	TokenRange=1025:1031
+14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	TokenRange=1032:1035
+15	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No|TokenRange=1036:1043
+16	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n|TokenRange=1043:1044
+
+# sent_id = 14
+# text = Les étudiants se sont rassemblés dans la cafétéria pour discuter de leurs examens finaux à venir.
+1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	TokenRange=1045:1048
+2	étudiants	étudiant	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	TokenRange=1049:1058
+3	se	soi	PRON	_	Emph=No|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	TokenRange=1059:1061
+4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	TokenRange=1062:1066
+5	rassemblés	rassembler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=1067:1077
+6	dans	dans	ADP	_	_	8	case	_	TokenRange=1078:1082
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	TokenRange=1083:1085
+8	cafétéria	cafétéria	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	TokenRange=1086:1095
+9	pour	pour	ADP	_	_	10	mark	_	TokenRange=1096:1100
+10	discuter	discuter	VERB	_	VerbForm=Inf	5	advcl	_	TokenRange=1101:1109
+11	de	de	ADP	_	_	13	case	_	TokenRange=1110:1112
+12	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	TokenRange=1113:1118
+13	examens	examen	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	TokenRange=1119:1126
+14	finaux	final	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	TokenRange=1127:1133
+15	à	à	ADP	_	_	16	mark	_	TokenRange=1134:1135
+16	venir	venir	VERB	_	VerbForm=Inf	13	acl	_	SpaceAfter=No|TokenRange=1136:1141
+17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=1141:1142
+
+# sent_id = 15
+# text = Le coucher de soleil a peint le ciel de brillantes nuances d'orange et de violet.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=1143:1145
+2	coucher	coucher	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=1146:1153
+3	de	de	ADP	_	_	4	case	_	TokenRange=1154:1156
+4	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	TokenRange=1157:1163
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	TokenRange=1164:1165
+6	peint	peindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	TokenRange=1166:1171
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	TokenRange=1172:1174
+8	ciel	ciel	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	TokenRange=1175:1179
+9	de	de	ADP	_	_	11	case	_	TokenRange=1180:1182
+10	brillantes	brillant	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	TokenRange=1183:1193
+11	nuances	nuance	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	TokenRange=1194:1201
+12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No|TokenRange=1202:1204
+13	orange	orange	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	TokenRange=1204:1210
+14	et	et	CCONJ	_	_	16	cc	_	TokenRange=1211:1213
+15	de	de	ADP	_	_	16	case	_	TokenRange=1214:1216
+16	violet	violet	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=1217:1223
+17	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No|TokenRange=1223:1224
+
